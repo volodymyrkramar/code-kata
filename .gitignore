@@ -1,0 +1,15 @@
+.project
+.classpath
+.bin
+
+*.class
+*.war
+
+# Intellij
+/.idea/
+*.iml
+*.iws
+
+# Maven
+log/
+*/target/
