@@ -23,6 +23,7 @@ public class FindPivotIndexTest {
         Assert.assertEquals(EXPECTED_RESULT_1, findPivotIndex.pivotIndex(inData1));
         Assert.assertEquals(EXPECTED_RESULT_2, findPivotIndex.pivotIndex(inData2));
         Assert.assertEquals(EXPECTED_RESULT_3, findPivotIndex.pivotIndex(inData3));
+
         Calendar end = Calendar.getInstance();
         System.out.println(end.getTimeInMillis() - start.getTimeInMillis());
     }
